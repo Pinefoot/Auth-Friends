@@ -42,7 +42,7 @@ class AddNewFriend extends React.Component {
     render(){
         return(
         <form onSubmit={this.addFriend}>
-            <h2>Add a new friend here you lonely block head!</h2>
+            <h2>Add a new friend here you lonely bastard!</h2>
             <input
             type="text"
             name="name"
@@ -65,7 +65,7 @@ class AddNewFriend extends React.Component {
             value={this.state.newFriend.email}
             onChange={this.handleChange}
             />
-            <button>Add a new firend you lonely bastard</button>
+            <button>Abandon all hope of making new real friends, by creating them yourself</button>
             
         </form>
     )//closes return
